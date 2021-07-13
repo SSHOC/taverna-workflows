@@ -1,8 +1,8 @@
-This is a project of a Taverna Workbench plugin. 
+This is a project of a Taverna Workbench's plugin. 
 The main purpose of this plugin is adding a new saving logic feature and modifing the user interface of Taverna Workbench to use this feature.
-Specifically this plugin allows to save a workflow in an online database adding to an existing dataset. This operation is made thruogh SSHOC dataverse tool.
-SSHOC dataverse tool is a web service that provide support to comunicate with Dataverse.
-Dataverse is an open sourche web application to store and manage research data (repository).
+Specifically this plugin allows you to save a workflow in an online database by adding it to an existing dataset in a dataverse repository. This operation is done thruogh the use of SSHOC dataverse tool.
+SSHOC dataverse tool is a web service that provides support to comunicate with Dataverse.
+Dataverse is an open source web application to store and manage research data (repository).
 
-Actually to use this functionality with Taverna Workbench is needed to download the source code compiling it with java and execute Taverna.
+Currently to use this functionality with Taverna Workbench it is necessary to download the source code compiling it with java and run Taverna.
 The functionality that will make it a downloadable plugin will be implemented soon.
