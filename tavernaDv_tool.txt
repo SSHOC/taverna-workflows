@@ -6,3 +6,8 @@ Dataverse is an open source web application to store and manage research data (r
 
 Currently to use this functionality with Taverna Workbench it is necessary to download the source code compiling it with java and run Taverna.
 The functionality that will make it a downloadable plugin will be implemented soon.
+
+To save a workflow in a dataset of a dataverse repository, in Taverna Workbench interface you must proced as usually like you save a workflow locally but you must change the extension with which the file is saved to ".dvflow".
+You will also need to pay attention to the values of the apiToken and datasetId fileds in "./TavernaDv_tool-activity/resources/config.properties" and eventually update to the correct values.
+The apiToken field is a code to have a secure access on dataverse repository, this value can be recover directly on the profile of the Dataverse application.
+The datasetId field is a code which refers univocally on a specific dataset, this value can be recover from the dataset name or properties through the use of Dataverse application.
